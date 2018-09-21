@@ -3,8 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
-import Tab from "./components/tab";
+import Tab, {
+  TabHeadingContainer,
+  TabContentWrapper,
+  TabHeading,
+  TabContent
+} from "./components/tab";
 import styled from "react-emotion";
+
 const mockData = [
   {
     label: "Test 1",
